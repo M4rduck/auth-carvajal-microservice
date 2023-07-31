@@ -19,7 +19,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.prueba</groupId>
-			<artifactId>carvajal-document</artifactId>
+			<artifactId>carvajal-model</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		
