@@ -14,5 +14,9 @@ spring:
         health-check-critical-timeout: 1m
         heartbeat:
           enabled: true
+  data:
+    mongodb:
+      uri: mongodb+srv://dbprueba:EOL9pXBixZ8ozzw6@carvajal-prueba-db.jdbe0kf.mongodb.net/?retryWrites=true&w=majority
+      database: facebook-carvajal
 server:
   port: 4444
