@@ -8,5 +8,20 @@
     "name": "spring.application.jwtExpirationInMs",
     "type": "java.lang.String",
     "description": "Expiration time token in millisecondsExpiration time token in milliseconds"
+  },
+  {
+    "name": "spring.application.password.encoder.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.password.encoder.secret'"
+  },
+  {
+    "name": "spring.application.password.encoder.iteration",
+    "type": "java.lang.Integer",
+    "description": "A description for 'spring.application.password.encoder.iteration'"
+  },
+  {
+    "name": "spring.application.password.encoder.keylength",
+    "type": "java.lang.Integer",
+    "description": "A description for 'spring.application.password.encoder.keylength'"
   }
 ]}

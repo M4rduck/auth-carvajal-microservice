@@ -3,6 +3,11 @@ spring:
     name: auth-carvajal-microservice
     jwtSecret: 92053d0d844cd68406a4914258c78da672127450f09e9d9ffb443c369412ac2e
     jwtExpirationInMs: 3600000
+    password:
+      encoder:
+        secret: carvajalSecret
+        iteration: 33
+        keylength: 256
   cloud:
     consul:
       host: ${CONSUL_URL:localhost}
