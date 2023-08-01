@@ -1,5 +1,6 @@
 package com.prueba.authcarvajalmicroservice.config.security;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.ReactiveAuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -11,9 +12,9 @@ import lombok.AllArgsConstructor;
 import reactor.core.publisher.Mono;
 
 @Component
-@AllArgsConstructor
 public class AuthenticationManager implements ReactiveAuthenticationManager {
 	
+	@Autowired
 	private JwtUtil jwtUtil;
 	
 	@Override
